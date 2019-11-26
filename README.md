@@ -2,7 +2,7 @@
 
 [Image segmentation](https://en.wikipedia.org/wiki/Image_segmentation) is a process that breaks down an image into smaller segments according to some criteria. For _semantic_ segmentation this means that all pixels of one segment represent an object (or objects) of a single _class_; in this case a class has been predefined to represent a type of object of interest. For example in the slide image shown below, the objects can be classified as being a specimen (in the centre), regular labels (either side of the specimen), type labels (red circle), barcode labels, or otherwise as being part of the 'background'.
 
-![slide image](https://github.com/NaturalHistoryMuseum/semantic-segmentation/blob/master/example_image.JPG)
+![slide image](https://raw.githubusercontent.com/NaturalHistoryMuseum/semantic-segmentation/master/example_image.PNG)
 
 Segments can be broken down further into _instances_, which represent distinct objects separately - even if they have the same class. For example, the labels on either side of the slide image would be part of the same 'segment' (even though it is not contiguous), but are treated as separate instances. A corresponding representation of instances for the slide image can be seen below, where each unique colour maps pixels to a specific instance.
 
